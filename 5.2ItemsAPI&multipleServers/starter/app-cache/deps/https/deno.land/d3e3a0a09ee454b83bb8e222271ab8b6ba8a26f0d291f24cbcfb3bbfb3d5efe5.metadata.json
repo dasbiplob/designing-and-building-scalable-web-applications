@@ -1,33 +1,33 @@
 {
   "headers": {
-    "access-control-allow-origin": "*",
-    "server-timing": "fetchSource;dur=22",
-    "x-amz-cf-id": "GKUKSiPoO8m8d2lARTFFWQ9FuYzClNFDzf7lK4AUf1N1ftGKUjvlzA==",
-    "x-amz-cf-pop": "AMS50-C1",
-    "x-amz-version-id": "5t8ZBT.lqWxxLLzLfJz5iNmIE8f_Zbaf",
-    "content-type": "application/javascript",
+    "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
     "cross-origin-embedder-policy": "same-origin",
     "etag": "W/\"fca40b63100a3fa897c5b1dc67bc34a9\"",
-    "x-content-type-options": "nosniff",
-    "date": "Sun, 04 Jun 2023 17:18:09 GMT",
-    "cross-origin-resource-policy": "same-origin",
+    "x-frame-options": "DENY",
+    "server": "deno/gcp-europe-west4",
+    "access-control-allow-origin": "*",
+    "server-timing": "fetchSource;dur=62",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "vary": "Accept-Encoding, Origin",
+    "x-amz-version-id": "5t8ZBT.lqWxxLLzLfJz5iNmIE8f_Zbaf",
+    "x-content-type-options": "nosniff",
     "cache-control": "public, max-age=31536000, immutable",
     "cross-origin-opener-policy": "same-origin",
-    "x-cache": "Hit from cloudfront",
-    "age": "23828052",
-    "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
-    "server": "deno/gcp-europe-west4",
+    "date": "Sun, 04 Jun 2023 17:18:09 GMT",
+    "content-type": "application/javascript",
     "via": "http/2 edgeproxy-h",
+    "age": "23835722",
+    "cross-origin-resource-policy": "same-origin",
+    "x-amz-cf-pop": "AMS50-C1",
+    "x-cache": "Hit from cloudfront",
     "x-amz-replication-status": "COMPLETED",
-    "x-frame-options": "DENY",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "vary": "Accept-Encoding, Origin"
+    "x-amz-cf-id": "zeKwYDeP3O6KXVCxwGEI4kr6aZ7wwVzNHODr84XpWGQUuU_9G9JyGw==",
+    "referrer-policy": "strict-origin-when-cross-origin"
   },
   "url": "https://deno.land/std@0.132.0/node/internal/util/inspect.mjs",
   "now": {
-    "secs_since_epoch": 1709727140,
-    "nanos_since_epoch": 815502804
+    "secs_since_epoch": 1709734810,
+    "nanos_since_epoch": 878071596
   }
 }

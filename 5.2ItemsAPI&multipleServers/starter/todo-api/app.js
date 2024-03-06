@@ -2,8 +2,10 @@ import { postgres } from "./deps.js";
 
 const sql = postgres({});
 
+const SERVER_ID = crypto.randomUUID();
+
 const handleGetRoot = async (request) => {
-  return new Response("Hello world at root!");
+  return new Response(`Hello from ${ SERVER_ID }`);
 };
 
 const handleGetItem = async (request, urlPatternResult) => {

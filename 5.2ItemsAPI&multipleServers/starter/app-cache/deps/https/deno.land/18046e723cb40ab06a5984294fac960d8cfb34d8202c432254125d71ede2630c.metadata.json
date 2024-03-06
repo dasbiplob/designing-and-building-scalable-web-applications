@@ -1,33 +1,33 @@
 {
   "headers": {
-    "cross-origin-resource-policy": "same-origin",
-    "server": "deno/gcp-europe-west4",
-    "age": "12023950",
-    "content-type": "application/javascript",
-    "x-amz-replication-status": "COMPLETED",
-    "cross-origin-embedder-policy": "same-origin",
     "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
     "via": "http/2 edgeproxy-h",
-    "x-amz-version-id": "tzhC5fnTq1RCNHTVr36tSCYxlLIMowV8",
-    "vary": "Accept-Encoding, Origin",
-    "x-content-type-options": "nosniff",
-    "date": "Thu, 19 Oct 2023 08:13:13 GMT",
+    "content-type": "application/javascript",
+    "age": "12031621",
+    "cross-origin-resource-policy": "same-origin",
+    "server-timing": "fetchSource;dur=18",
     "cross-origin-opener-policy": "same-origin",
+    "x-amz-replication-status": "COMPLETED",
+    "server": "deno/gcp-europe-west4",
+    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT",
     "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "vary": "Accept-Encoding, Origin",
+    "x-amz-cf-id": "a_pb-7uxa0aoJXhXZQX0X4qcIGf9yXzS2PFKYiMabQPhEiMN2gup9Q==",
+    "x-frame-options": "DENY",
+    "date": "Thu, 19 Oct 2023 08:13:13 GMT",
     "cache-control": "public, max-age=31536000, immutable",
-    "x-amz-cf-id": "GRAmQsViHQ_NWZEBqiuDUB4hTDz5LzL4Yw9EEmhovxJX6RAcJvwS5w==",
-    "etag": "W/\"269b7661a44d5c98f3fe385656354e9a\"",
     "access-control-allow-origin": "*",
+    "etag": "W/\"269b7661a44d5c98f3fe385656354e9a\"",
     "x-amz-cf-pop": "AMS50-C1",
     "x-cache": "Hit from cloudfront",
-    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "server-timing": "fetchSource;dur=70",
-    "x-frame-options": "DENY",
-    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT"
+    "x-content-type-options": "nosniff",
+    "x-amz-version-id": "tzhC5fnTq1RCNHTVr36tSCYxlLIMowV8",
+    "cross-origin-embedder-policy": "same-origin"
   },
   "url": "https://deno.land/std@0.132.0/node/_crypto/crypto_browserify/cipher_base.js",
   "now": {
-    "secs_since_epoch": 1709727143,
-    "nanos_since_epoch": 51829555
+    "secs_since_epoch": 1709734813,
+    "nanos_since_epoch": 413768514
   }
 }

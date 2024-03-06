@@ -1,33 +1,33 @@
 {
   "headers": {
-    "via": "http/2 edgeproxy-h",
+    "date": "Sat, 26 Aug 2023 22:36:59 GMT",
+    "x-frame-options": "DENY",
+    "cross-origin-opener-policy": "same-origin",
     "x-amz-cf-pop": "AMS50-C1",
+    "x-cache": "Hit from cloudfront",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "x-amz-version-id": "PuumiNZ3_RVesJWlDIj18O4cGPbnNGsr",
+    "vary": "Accept-Encoding, Origin",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "age": "16645391",
+    "server-timing": "fetchSource;dur=22",
+    "access-control-allow-origin": "*",
+    "content-type": "application/javascript",
+    "etag": "W/\"2143151eac8bf1ca4e51abf9b90f42f8\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-cf-id": "l00sP5nqVVyS-1J1zy9kiBq809oqEEIdCQQ-7xwvsCZ3T6bOg1yxxw==",
     "cross-origin-resource-policy": "same-origin",
     "x-amz-replication-status": "COMPLETED",
-    "age": "16637722",
-    "x-frame-options": "DENY",
-    "content-type": "application/javascript",
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "date": "Sat, 26 Aug 2023 22:36:59 GMT",
     "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
-    "cache-control": "public, max-age=31536000, immutable",
-    "x-amz-version-id": "PuumiNZ3_RVesJWlDIj18O4cGPbnNGsr",
-    "x-content-type-options": "nosniff",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "cross-origin-opener-policy": "same-origin",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "x-amz-cf-id": "dTFNKJQhp0To68-plSwF0FerxcG1F2eXbh2FZ02tldqksSMT_aRknQ==",
-    "x-cache": "Hit from cloudfront",
-    "server-timing": "fetchSource;dur=28",
-    "server": "deno/gcp-europe-west4",
-    "vary": "Accept-Encoding, Origin",
-    "etag": "W/\"2143151eac8bf1ca4e51abf9b90f42f8\"",
     "cross-origin-embedder-policy": "same-origin",
-    "access-control-allow-origin": "*"
+    "via": "http/2 edgeproxy-h",
+    "x-content-type-options": "nosniff",
+    "server": "deno/gcp-europe-west4"
   },
   "url": "https://deno.land/std@0.132.0/node/internal/validators.mjs",
   "now": {
-    "secs_since_epoch": 1709727140,
-    "nanos_since_epoch": 241458387
+    "secs_since_epoch": 1709734810,
+    "nanos_since_epoch": 72448137
   }
 }
