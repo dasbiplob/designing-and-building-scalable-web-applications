@@ -8,25 +8,25 @@ Brief description of your computer: TODO
 
 ### Retrieving todos
 
-http_reqs: TODO
-http_req_duration - median: TODO
-http_req_duration - 99th percentile: TODO
+http_reqs: 128814
+http_req_duration - median: avg=756.97µs
+http_req_duration - 99th percentile: 1.22ms
 
 
 ### Posting todos
 
-http_reqs: TODO
-http_req_duration - median: TODO
-http_req_duration - 99th percentile: TODO
+http_reqs: 123306
+http_req_duration - median: 788.29µs
+http_req_duration - 99th percentile: =1.47ms
 
 
 ## With database
 
 ### Retrieving todos
 
-http_reqs: 174985
-http_req_duration - median: avg=549.55µs
-http_req_duration - 99th percentile: 926µs 
+http_reqs: 70
+http_req_duration - median: avg=1.55s
+http_req_duration - 99th percentile: 2.86s 
 
 
 ### Posting todos
