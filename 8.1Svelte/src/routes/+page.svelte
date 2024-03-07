@@ -4,6 +4,8 @@
     import Reactivity from '../components/Reactivity.svelte';
     import Logic from '../components/Logic.svelte';
     import InputStatistic from '../components/InputStatistic.svelte';
+    import JokeApi from '../components/JokeAPI.svelte';
+    import DogApi from '../components/DogAPI.svelte';
     let tasks = [];
 
     const addTask = (task) => {
@@ -20,3 +22,5 @@
 <Reactivity />
 <Logic />
 <InputStatistic />
+<JokeApi />
+<DogApi />
