@@ -2,6 +2,8 @@
     import Monitor from '../components/Monitor.svelte';
     import TaskInput from '../components/TaskInput.svelte';
     import Reactivity from '../components/Reactivity.svelte';
+    import Logic from '../components/Logic.svelte';
+    import InputStatistic from '../components/InputStatistic.svelte';
     let tasks = [];
 
     const addTask = (task) => {
@@ -16,3 +18,5 @@
 <TaskInput addTask={addTask} />
 <Monitor />
 <Reactivity />
+<Logic />
+<InputStatistic />
