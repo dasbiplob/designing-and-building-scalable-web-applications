@@ -1,75 +1,79 @@
-import { postgres } from "./deps.js";
-
+import postgres from "https://deno.land/x/postgresjs@v3.4.2/mod.js";
 const sql = postgres({});
-
-const SERVER_ID = crypto.randomUUID();
-
-const handleGetRoot = async (request) => {
-  return new Response(`Hello from ${ SERVER_ID }`);
-};
 
 const handleGetItem = async (request, urlPatternResult) => {
   const id = urlPatternResult.pathname.groups.id;
-  const items = await sql`SELECT * FROM items WHERE id = ${id}`;
+  const items = await sql`SELECT * FROM todos WHERE id = ${id}`;
 
-  // assuming that there's always an item that matches the id
+  if (items.length === 0) {
+    return new Response("Not found", { status: 404, headers: { "Content-Type": "text/plain" } });
+  }
+
   return Response.json(items[0]);
 };
 
+
 const handleGetItems = async (request) => {
-  const items = await sql`SELECT * FROM items`;
+  const items = await sql`SELECT * FROM todos`;
   return Response.json(items);
 };
 
 const handlePostItems = async (request) => {
-  // assuming that the request has a json object and that
-  // the json object has a property name
-  const item = await request.json();
+  try {
+    // assuming that the request has a json object and that
+    // the json object has a property named 'item'
+    const item = await request.json();
 
-  await sql`INSERT INTO items (name) VALUES (${item.name})`;
-  return new Response("OK", { status: 200 });
+    // Check if 'item' property exists and is not empty
+    if (!item || typeof item.item !== "string" || item.item.trim() === "") {
+      return new Response("Invalid data. 'item' property is required and must be a non-empty string", { status: 400 });
+    }
+
+    await sql`INSERT INTO todos (item) VALUES (${item.item})`;
+    return new Response("OK", { status: 200 });
+  } catch (e) {
+    //console.error(e);
+    return new Response("Invalid data", { status: 400 });
+  }
 };
+
 
 const urlMapping = [
   {
     method: "GET",
-    pattern: new URLPattern({ pathname: "/items/:id" }),
+    pattern: new URLPattern({ pathname: "/todos/:id" }),
     fn: handleGetItem,
   },
   {
     method: "GET",
-    pattern: new URLPattern({ pathname: "/items" }),
+    pattern: new URLPattern({ pathname: "/todos" }),
     fn: handleGetItems,
   },
   {
     method: "POST",
-    pattern: new URLPattern({ pathname: "/items" }),
+    pattern: new URLPattern({ pathname: "/todos" }),
     fn: handlePostItems,
-  },
-  {
-    method: "GET",
-    pattern: new URLPattern({ pathname: "/" }),
-    fn: handleGetRoot,
   },
 ];
 
 const handleRequest = async (request) => {
-    const mapping = urlMapping.find(
-      (um) => um.method === request.method && um.pattern.test(request.url)
-    );
-  
-    if (!mapping) {
-      return new Response("Not found", { status: 404 });
-    }
-  
-    const mappingResult = mapping.pattern.exec(request.url);
-    try {
-      return await mapping.fn(request, mappingResult);
-    } catch (e) {
-      console.log(e);
-      return new Response(e.stack, { status: 500 })
-    }
-  };
+  const mapping = urlMapping.find(
+    (um) => um.method === request.method && um.pattern.test(request.url)
+  );
 
-const portConfig = { port: 7777, hostname: '0.0.0.0' };
-Deno.serve(portConfig, handleRequest);
+  if (!mapping) {
+    return new Response("Not found", { status: 404, headers: { "Content-Type": "text/plain" } });
+  }
+
+  const mappingResult = mapping.pattern.exec(request.url);
+  try {
+    return await mapping.fn(request, mappingResult);
+  } catch (e) {
+    console.log(e);
+    return new Response(e.stack, { status: 500, headers: { "Content-Type": "text/plain" } });
+  }
+};
+
+
+//const portConfig = { port: 7777,  };
+Deno.serve({ port: 7777}, handleRequest);

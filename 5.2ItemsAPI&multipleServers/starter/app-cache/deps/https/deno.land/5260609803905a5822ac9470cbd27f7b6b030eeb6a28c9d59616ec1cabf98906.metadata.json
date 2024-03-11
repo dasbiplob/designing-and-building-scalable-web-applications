@@ -1,33 +1,33 @@
 {
   "headers": {
-    "date": "Thu, 19 Oct 2023 08:13:14 GMT",
-    "etag": "W/\"0b98e4df9ba4ad0f8daa5f0d52928ca3\"",
-    "cross-origin-embedder-policy": "same-origin",
-    "x-amz-replication-status": "COMPLETED",
     "x-frame-options": "DENY",
+    "content-type": "application/javascript",
+    "cross-origin-embedder-policy": "same-origin",
+    "etag": "W/\"0b98e4df9ba4ad0f8daa5f0d52928ca3\"",
     "cache-control": "public, max-age=31536000, immutable",
     "cross-origin-resource-policy": "same-origin",
-    "access-control-allow-origin": "*",
-    "vary": "Accept-Encoding, Origin",
-    "x-amz-version-id": "JEb.k2y4bRypaFwuDF7T0b4TfXIct_cI",
     "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT",
-    "server-timing": "fetchSource;dur=10",
-    "x-amz-cf-pop": "AMS50-C1",
-    "content-type": "application/javascript",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "cross-origin-opener-policy": "same-origin",
-    "age": "12031620",
-    "x-content-type-options": "nosniff",
-    "x-amz-cf-id": "Yzqqm_spz-xH5ikptCqyyhVNfByRZm1rkk0HZyBFDMEh_BAw43Xf1A==",
+    "server-timing": "fetchSource;dur=6",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "server": "deno/gcp-europe-west4",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
     "via": "http/2 edgeproxy-h",
+    "x-amz-cf-pop": "AMS50-C1",
+    "access-control-allow-origin": "*",
+    "cross-origin-opener-policy": "same-origin",
+    "x-amz-replication-status": "COMPLETED",
+    "x-amz-version-id": "JEb.k2y4bRypaFwuDF7T0b4TfXIct_cI",
+    "date": "Thu, 19 Oct 2023 08:13:14 GMT",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-amz-cf-id": "D3SnJQKY3_5EQd2yfMerLN7OqRZQVUGc6zEl3bQGHdCBLtgb68ihdg==",
+    "age": "12451249",
+    "server": "deno/gcp-europe-west4",
     "x-cache": "Hit from cloudfront",
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox"
+    "x-content-type-options": "nosniff",
+    "vary": "Accept-Encoding, Origin"
   },
   "url": "https://deno.land/std@0.132.0/node/_crypto/crypto_browserify/browserify_aes/ghash.js",
   "now": {
-    "secs_since_epoch": 1709734813,
-    "nanos_since_epoch": 714883750
+    "secs_since_epoch": 1710154442,
+    "nanos_since_epoch": 842445471
   }
 }

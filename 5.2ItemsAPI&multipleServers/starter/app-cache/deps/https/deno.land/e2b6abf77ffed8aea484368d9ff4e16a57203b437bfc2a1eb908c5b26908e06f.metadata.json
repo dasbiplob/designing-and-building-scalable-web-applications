@@ -1,33 +1,33 @@
 {
   "headers": {
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "x-amz-cf-pop": "AMS50-C1",
-    "x-amz-cf-id": "ZoUZKoIumz6sr6XH3VKT4QQ1sFeFYiIAlZbc9FWwucmYS_E0nAbClw==",
-    "age": "23138110",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-cf-id": "S0h4h6eXtPNEfOPp0cNQ8JnJO6o1NIVBYwrZZExiWeIdwwsuA7Xnbg==",
+    "x-frame-options": "DENY",
+    "date": "Mon, 12 Jun 2023 19:05:02 GMT",
+    "etag": "W/\"30ff87d64b6ced7711ad81d10b73b42b\"",
     "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
-    "cross-origin-resource-policy": "same-origin",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "x-amz-version-id": "QFxlwR9XQSrUX_KERZgzGfLOtj1Mzlsm",
-    "x-content-type-options": "nosniff",
-    "x-amz-replication-status": "COMPLETED",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
     "cross-origin-opener-policy": "same-origin",
     "cross-origin-embedder-policy": "same-origin",
+    "x-amz-cf-pop": "AMS50-C1",
+    "age": "23557740",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server-timing": "fetchSource;dur=206",
     "access-control-allow-origin": "*",
-    "content-type": "application/javascript",
-    "etag": "W/\"30ff87d64b6ced7711ad81d10b73b42b\"",
-    "server-timing": "fetchSource;dur=18",
-    "x-cache": "Hit from cloudfront",
-    "cache-control": "public, max-age=31536000, immutable",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "via": "http/2 edgeproxy-h",
-    "server": "deno/gcp-europe-west4",
-    "date": "Mon, 12 Jun 2023 19:05:02 GMT",
     "vary": "Accept-Encoding, Origin",
-    "x-frame-options": "DENY"
+    "x-amz-replication-status": "COMPLETED",
+    "x-cache": "Hit from cloudfront",
+    "x-amz-version-id": "QFxlwR9XQSrUX_KERZgzGfLOtj1Mzlsm",
+    "x-content-type-options": "nosniff",
+    "cross-origin-resource-policy": "same-origin",
+    "server": "deno/gcp-europe-west4",
+    "content-type": "application/javascript"
   },
   "url": "https://deno.land/std@0.132.0/node/internal/streams/end-of-stream.mjs",
   "now": {
-    "secs_since_epoch": 1709734812,
-    "nanos_since_epoch": 38702221
+    "secs_since_epoch": 1710154441,
+    "nanos_since_epoch": 771982220
   }
 }

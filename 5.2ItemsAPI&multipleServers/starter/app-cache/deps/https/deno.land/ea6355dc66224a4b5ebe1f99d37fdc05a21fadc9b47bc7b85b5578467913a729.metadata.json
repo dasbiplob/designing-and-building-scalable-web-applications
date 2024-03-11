@@ -1,35 +1,35 @@
 {
   "headers": {
-    "accept-ranges": "bytes",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "via": "http/2 edgeproxy-h",
-    "age": "12031622",
-    "x-cache": "Hit from cloudfront",
-    "content-type": "application/typescript; charset=utf-8",
+    "server-timing": "fetchSource;dur=226",
+    "x-amz-version-id": "TKyALICZlQn3drJQvzYro.qqv8rdLp0a",
+    "etag": "\"1a643bf0503c6f71dc7171a0205a3d03\"",
+    "x-amz-cf-id": "zOf77_3TK2J1YIxFCvvp51uiM8HMq1xYGwykbX55RJm9OWQw4ZXnNg==",
     "x-content-type-options": "nosniff",
     "date": "Thu, 19 Oct 2023 08:13:10 GMT",
-    "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
     "cache-control": "public, max-age=31536000, immutable",
     "content-length": "8987",
-    "cross-origin-opener-policy": "same-origin",
-    "x-amz-replication-status": "COMPLETED",
-    "x-amz-cf-id": "KN3mMU4l6l53sNrjheSQ4VO3abcQJcex5fbtnzVri2PU5vn7v1WpoA==",
-    "access-control-allow-origin": "*",
-    "cross-origin-embedder-policy": "same-origin",
     "cross-origin-resource-policy": "same-origin",
-    "server-timing": "fetchSource;dur=32",
     "vary": "Accept-Encoding, Origin",
+    "cross-origin-opener-policy": "same-origin",
     "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "server": "deno/gcp-europe-west4",
+    "last-modified": "Fri, 25 Mar 2022 13:32:50 GMT",
     "x-frame-options": "DENY",
-    "etag": "\"1a643bf0503c6f71dc7171a0205a3d03\"",
+    "x-amz-replication-status": "COMPLETED",
+    "accept-ranges": "bytes",
+    "content-type": "application/typescript; charset=utf-8",
+    "server": "deno/gcp-europe-west4",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "age": "12451252",
+    "x-cache": "Hit from cloudfront",
     "x-amz-cf-pop": "AMS50-C1",
-    "x-amz-version-id": "TKyALICZlQn3drJQvzYro.qqv8rdLp0a"
+    "cross-origin-embedder-policy": "same-origin",
+    "access-control-allow-origin": "*",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "via": "http/2 edgeproxy-h"
   },
   "url": "https://deno.land/std@0.132.0/node/internal/stream_base_commons.ts",
   "now": {
-    "secs_since_epoch": 1709734811,
-    "nanos_since_epoch": 980388721
+    "secs_since_epoch": 1710154441,
+    "nanos_since_epoch": 747770345
   }
 }

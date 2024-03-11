@@ -1,33 +1,33 @@
 {
   "headers": {
-    "server-timing": "fetchSource;dur=146",
-    "x-amz-cf-pop": "AMS50-C1",
     "etag": "W/\"686e51c51505066bfb82322857af0ef2\"",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "x-cache": "Hit from cloudfront",
-    "cache-control": "public, max-age=31536000, immutable",
-    "x-amz-version-id": "6iNern82jBgcgERz.tGjP5P7h8XojeDq",
-    "date": "Sun, 17 Dec 2023 12:26:15 GMT",
-    "x-amz-cf-id": "G3YlEsu5n9yu9QZ7w5vQx_3yrRuTIfD0urPpZsVgGSUz4GqwM_pcYw==",
-    "x-frame-options": "DENY",
     "x-amz-replication-status": "COMPLETED",
-    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "vary": "Accept-Encoding, Origin",
-    "cross-origin-resource-policy": "same-origin",
-    "cross-origin-opener-policy": "same-origin",
+    "x-cache": "Hit from cloudfront",
+    "date": "Sun, 17 Dec 2023 12:26:15 GMT",
     "access-control-allow-origin": "*",
-    "age": "6918839",
-    "server": "deno/gcp-europe-west4",
+    "x-amz-cf-id": "Zdblcbsl0IX9bCS_EEvOABTE9HxVnS7luwR22T3tCh6p5oE8PXLatQ==",
+    "cache-control": "public, max-age=31536000, immutable",
     "content-type": "application/javascript",
-    "x-content-type-options": "nosniff",
+    "vary": "Accept-Encoding, Origin",
     "cross-origin-embedder-policy": "same-origin",
-    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "server": "deno/gcp-europe-west4",
+    "cross-origin-resource-policy": "same-origin",
+    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT",
+    "age": "7338468",
+    "server-timing": "fetchSource;dur=14",
     "via": "http/2 edgeproxy-h",
-    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT"
+    "x-amz-version-id": "6iNern82jBgcgERz.tGjP5P7h8XojeDq",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "x-frame-options": "DENY",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "cross-origin-opener-policy": "same-origin",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-amz-cf-pop": "AMS50-C1"
   },
   "url": "https://deno.land/std@0.132.0/node/_crypto/crypto_browserify/asn1.js/base/node.js",
   "now": {
-    "secs_since_epoch": 1709734813,
-    "nanos_since_epoch": 500727639
+    "secs_since_epoch": 1710154442,
+    "nanos_since_epoch": 596606679
   }
 }

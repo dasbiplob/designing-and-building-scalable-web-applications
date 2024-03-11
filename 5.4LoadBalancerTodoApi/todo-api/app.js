@@ -5,7 +5,10 @@ const handleGetItem = async (request, urlPatternResult) => {
   const id = urlPatternResult.pathname.groups.id;
   const items = await sql`SELECT * FROM todos WHERE id = ${id}`;
 
-  // assuming that there's always an item that matches the id
+  if (items.length === 0) {
+    return new Response("Not found", { status: 404, headers: { "Content-Type": "text/plain" } });
+  }
+
   return Response.json(items[0]);
 };
 
@@ -39,7 +42,7 @@ const handlePostItems = async (request) => {
     await sql`INSERT INTO todos (item) VALUES (${item.item})`;
     return new Response("OK", { status: 200 });
   } catch (e) {
-    console.error(e);
+    //console.error(e);
     return new Response("Invalid data", { status: 400 });
   }
 };

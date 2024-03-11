@@ -1,33 +1,33 @@
 {
   "headers": {
-    "content-type": "application/javascript",
-    "server": "deno/gcp-europe-west4",
-    "cross-origin-embedder-policy": "same-origin",
-    "x-content-type-options": "nosniff",
-    "x-amz-replication-status": "COMPLETED",
-    "date": "Fri, 25 Aug 2023 23:01:31 GMT",
-    "access-control-allow-origin": "*",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "server-timing": "fetchSource;dur=16",
     "cache-control": "public, max-age=31536000, immutable",
-    "x-amz-cf-pop": "AMS50-C1",
-    "etag": "W/\"a74bed872fc193c5c2ab736e1f28f84c\"",
+    "x-amz-cf-id": "AW4t_bi1oVBS_fxiHFwWj2FSaWsww79tibeBtP70h0dkJgr9I62bOw==",
+    "x-amz-replication-status": "COMPLETED",
+    "content-type": "application/javascript",
     "cross-origin-opener-policy": "same-origin",
     "x-amz-version-id": "4q_darSvHwDpRqQHRVg_s6dnk60XT..3",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "access-control-allow-origin": "*",
+    "x-cache": "Hit from cloudfront",
+    "x-content-type-options": "nosniff",
+    "server": "deno/gcp-europe-west4",
     "x-frame-options": "DENY",
-    "cross-origin-resource-policy": "same-origin",
-    "via": "http/2 edgeproxy-h",
-    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT",
+    "cross-origin-embedder-policy": "same-origin",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server-timing": "fetchSource;dur=20",
     "vary": "Accept-Encoding, Origin",
-    "x-amz-cf-id": "ooCh5U-_81PTZc96zg_CNGPiHlaRR8mLR772KbB3BvU6RX6f3jMzaw==",
-    "age": "16730320",
+    "etag": "W/\"a74bed872fc193c5c2ab736e1f28f84c\"",
     "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
-    "x-cache": "Hit from cloudfront"
+    "date": "Fri, 25 Aug 2023 23:01:31 GMT",
+    "x-amz-cf-pop": "AMS50-C1",
+    "cross-origin-resource-policy": "same-origin",
+    "age": "17149950",
+    "via": "http/2 edgeproxy-h",
+    "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT"
   },
   "url": "https://deno.land/std@0.132.0/node/_buffer.mjs",
   "now": {
-    "secs_since_epoch": 1709734811,
-    "nanos_since_epoch": 470751179
+    "secs_since_epoch": 1710154440,
+    "nanos_since_epoch": 856602845
   }
 }

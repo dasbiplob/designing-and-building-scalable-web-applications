@@ -1,33 +1,33 @@
 {
   "headers": {
-    "age": "23138109",
-    "x-cache": "Hit from cloudfront",
-    "date": "Mon, 12 Jun 2023 19:05:04 GMT",
-    "cross-origin-embedder-policy": "same-origin",
-    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "cross-origin-resource-policy": "same-origin",
-    "x-amz-version-id": "6FIQ_KiquCaLuFPpFkMumO7VoYVUjjqc",
-    "vary": "Accept-Encoding, Origin",
-    "x-content-type-options": "nosniff",
-    "x-amz-replication-status": "COMPLETED",
-    "referrer-policy": "strict-origin-when-cross-origin",
-    "cache-control": "public, max-age=31536000, immutable",
-    "x-amz-cf-id": "Svh0W_rMZVsipy6C-SZhiwuSOCVU3H4qDiA_y_Q9F_BaozZILVSViw==",
+    "access-control-allow-origin": "*",
     "cross-origin-opener-policy": "same-origin",
     "server": "deno/gcp-europe-west4",
+    "x-amz-cf-id": "b1HjXF5PTBsHKr9-Qvy_Lxem8EJugt6Q-Gn7G2NZxKOXc7cQn-vZmQ==",
+    "x-amz-version-id": "6FIQ_KiquCaLuFPpFkMumO7VoYVUjjqc",
+    "content-type": "application/javascript",
+    "x-cache": "Hit from cloudfront",
     "via": "http/2 edgeproxy-h",
-    "server-timing": "fetchSource;dur=8",
-    "x-frame-options": "DENY",
+    "cache-control": "public, max-age=31536000, immutable",
     "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "cross-origin-embedder-policy": "same-origin",
     "last-modified": "Fri, 25 Mar 2022 13:32:47 GMT",
+    "server-timing": "fetchSource;dur=16",
+    "date": "Mon, 12 Jun 2023 19:05:04 GMT",
+    "age": "23557739",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "x-amz-cf-pop": "AMS50-C1",
+    "cross-origin-resource-policy": "same-origin",
     "etag": "W/\"20d5a7dc1b03988764140d4461127699\"",
-    "access-control-allow-origin": "*",
-    "content-type": "application/javascript"
+    "vary": "Accept-Encoding, Origin",
+    "x-amz-replication-status": "COMPLETED",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin"
   },
   "url": "https://deno.land/std@0.132.0/_wasm_crypto/crypto.mjs",
   "now": {
-    "secs_since_epoch": 1709734812,
-    "nanos_since_epoch": 910772805
+    "secs_since_epoch": 1710154442,
+    "nanos_since_epoch": 340710679
   }
 }

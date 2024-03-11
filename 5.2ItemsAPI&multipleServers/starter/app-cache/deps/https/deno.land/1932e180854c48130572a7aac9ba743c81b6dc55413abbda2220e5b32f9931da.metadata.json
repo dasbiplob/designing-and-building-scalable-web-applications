@@ -1,34 +1,34 @@
 {
   "headers": {
-    "accept-ranges": "bytes",
-    "server": "deno/gcp-europe-west4",
-    "cross-origin-opener-policy": "same-origin",
-    "cross-origin-resource-policy": "same-origin",
-    "cache-control": "public, max-age=31536000, immutable",
-    "etag": "W/\"c0637f77531a33e6c764e57ff4b9bb39\"",
     "access-control-allow-origin": "*",
     "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "cross-origin-opener-policy": "same-origin",
+    "server-timing": "fetchSource;dur=12",
     "referrer-policy": "strict-origin-when-cross-origin",
-    "content-type": "application/javascript",
-    "via": "http/2 edgeproxy-h",
-    "x-amz-cf-id": "ubbDGAtO8zkJwFveaKUI09Wjn0F8BtwksgCOnD0egUfQz_nJdnI-DQ==",
-    "x-content-type-options": "nosniff",
-    "x-amz-version-id": "FLISe3tECyy0E5KhaHGtGg1_AcxN2.18",
+    "x-amz-cf-pop": "AMS50-C1",
     "x-frame-options": "DENY",
+    "cache-control": "public, max-age=31536000, immutable",
+    "via": "http/2 edgeproxy-h",
+    "accept-ranges": "bytes",
+    "server": "deno/gcp-europe-west4",
+    "x-cache": "Hit from cloudfront",
+    "age": "9202477",
     "date": "Sat, 25 Nov 2023 22:39:26 GMT",
-    "age": "8782848",
+    "x-amz-replication-status": "COMPLETED",
+    "etag": "W/\"c0637f77531a33e6c764e57ff4b9bb39\"",
+    "x-amz-version-id": "FLISe3tECyy0E5KhaHGtGg1_AcxN2.18",
     "cross-origin-embedder-policy": "same-origin",
     "last-modified": "Fri, 25 Mar 2022 13:32:48 GMT",
+    "x-content-type-options": "nosniff",
+    "content-type": "application/javascript",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
-    "x-cache": "Hit from cloudfront",
-    "x-amz-replication-status": "COMPLETED",
     "vary": "Accept-Encoding, Origin",
-    "x-amz-cf-pop": "AMS50-C1",
-    "server-timing": "fetchSource;dur=22"
+    "cross-origin-resource-policy": "same-origin",
+    "x-amz-cf-id": "nMwjuQJRTHucauubYQGOkxOO5HeIIkJ3_ZWrDhZzQ55Xky9T2fQYmg=="
   },
   "url": "https://deno.land/std@0.132.0/node/_crypto/crypto_browserify/browserify_aes/incr32.js",
   "now": {
-    "secs_since_epoch": 1709734813,
-    "nanos_since_epoch": 699104583
+    "secs_since_epoch": 1710154442,
+    "nanos_since_epoch": 849703596
   }
 }
